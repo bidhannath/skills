@@ -1,0 +1,16 @@
+{
+  "name": "bidhannath",
+  "owner": {
+    "name": "Bidhan Nath",
+    "url": "https://github.com/bidhannath"
+  },
+  "description": "Personal skills for Claude Code and other AI coding agents.",
+  "plugins": [
+    {
+      "name": "bidhannath-skills",
+      "source": "./",
+      "description": "Personal, portable skills for engineering and productivity workflows.",
+      "category": "engineering"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@bidhannath/ai-agent-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portable personal skills for Codex, Claude, and other AI coding agents.",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bidhannath/skills.git"
+  },
+  "scripts": {
+    "list": "node scripts/list-skills.mjs",
+    "validate": "node scripts/validate-skills.mjs",
+    "link": "bash scripts/link-skills.sh",
+    "install": "node scripts/install-skills.mjs",
+    "install:claude": "node scripts/install-skills.mjs --target=claude",
+    "install:codex": "node scripts/install-skills.mjs --target=codex",
+    "install:opencode": "node scripts/install-skills.mjs --target=opencode"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

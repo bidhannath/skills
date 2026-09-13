@@ -1,0 +1,22 @@
+{
+  "name": "bidhannath-skills",
+  "version": "0.1.0",
+  "description": "Personal, portable skills for Claude Code and other AI coding agents.",
+  "author": {
+    "name": "Bidhan Nath",
+    "url": "https://github.com/bidhannath"
+  },
+  "homepage": "https://github.com/bidhannath/skills",
+  "repository": "https://github.com/bidhannath/skills",
+  "license": "UNLICENSED",
+  "skills": [
+    "./skills/code-review",
+    "./skills/domain-modeling",
+    "./skills/grill-me",
+    "./skills/grill-with-docs",
+    "./skills/grilling",
+    "./skills/handoff",
+    "./skills/implement",
+    "./skills/tdd"
+  ]
+}
